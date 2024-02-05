@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a18d91c-712f-4556-a29e-fb55f1ae8178" name="Changes" comment="ejer 4 completo" />
+    <list default="true" id="6a18d91c-712f-4556-a29e-fb55f1ae8178" name="Changes" comment="ejer 4 completo">
+      <change afterPath="$PROJECT_DIR$/out/production/Ejercicio_4_Gestion-Personal/Empleado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Ejercicio_4_Gestion-Personal/Gerente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Ejercicio_4_Gestion-Personal/META-INF/Ejercicio_4_Gestion-Personal.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Ejercicio_4_Gestion-Personal/MainKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Ejercicio_4_Gestion-Personal/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Ejercicio_4_Gestion-Personal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ejercicio_4_Gestion-Personal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejer_4_GestionPersonal/src/Empleado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejer_4_GestionPersonal/src/Empleado.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejer_4_GestionPersonal/src/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejer_4_GestionPersonal/src/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejer_4_GestionPersonal/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Ejer_4_GestionPersonal/src/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2bxDdAoVxGmWEMU8YaQvI6hdj22" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,10 +35,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/usuariot/ReposGit/DAW_B_KOTLIN/Ejercicio_4_Gestion-Personal",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SharedIndexes">

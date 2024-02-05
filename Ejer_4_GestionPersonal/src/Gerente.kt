@@ -1,4 +1,4 @@
-class Gerente(nombre: String, edad: Int, salarioBase: Double, porcentajeImpuestos: Double = 33.99, var bonus: Double, var exentoImpuestos: Boolean = false) : Empleado(nombre, edad, salarioBase, porcentajeImpuestos) {
+class Gerente(nombre: String, edad: Int, salarioBase: Double, override val porcentajeImpuestos: Double = 33.99, private var bonus: Double, var exentoImpuestos: Boolean = false) : Empleado(nombre, edad, salarioBase, porcentajeImpuestos) {
     override fun calcularSalario(): Double {
         if (exentoImpuestos) {
             return salarioBase + bonus

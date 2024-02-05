@@ -1,4 +1,4 @@
-open class Empleado(nombre: String, edad: Int, var salarioBase: Double, var porcentajeImpuestos: Double = 10.0) : Persona(nombre, edad) {
+open class Empleado(nombre: String, edad: Int, var salarioBase: Double, open val porcentajeImpuestos: Double = 10.0) : Persona(nombre, edad) {
     constructor(nombre: String, edad: Int, salarioBase: Int, porcentajeImpuestos: Int = 10) : this(nombre, edad, salarioBase.toDouble(), porcentajeImpuestos.toDouble())
 
     open fun calcularSalario(): Double {
@@ -13,4 +13,3 @@ open class Empleado(nombre: String, edad: Int, var salarioBase: Double, var porc
         return "$nombre está trabajando en la empresa."
     }
 }
-
